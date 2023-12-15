@@ -12,6 +12,8 @@
 		5F6268462B2C0FFA00E8EB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6268452B2C0FFA00E8EB33 /* Assets.xcassets */; };
 		5F62684A2B2C0FFA00E8EB33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F6268492B2C0FFA00E8EB33 /* Preview Assets.xcassets */; };
 		5F6268512B2C109D00E8EB33 /* MetalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6268502B2C109D00E8EB33 /* MetalView.swift */; };
+		5F6268532B2C20D700E8EB33 /* Render.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6268522B2C20D700E8EB33 /* Render.swift */; };
+		5F6268552B2C3EC500E8EB33 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5F6268542B2C3EC500E8EB33 /* shaders.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5F6268472B2C0FFA00E8EB33 /* MetalLearning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MetalLearning.entitlements; sourceTree = "<group>"; };
 		5F6268492B2C0FFA00E8EB33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F6268502B2C109D00E8EB33 /* MetalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MetalView.swift; sourceTree = "<group>"; };
+		5F6268522B2C20D700E8EB33 /* Render.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Render.swift; sourceTree = "<group>"; };
+		5F6268542B2C3EC500E8EB33 /* shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = shaders.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				5F6268452B2C0FFA00E8EB33 /* Assets.xcassets */,
 				5F6268472B2C0FFA00E8EB33 /* MetalLearning.entitlements */,
 				5F6268482B2C0FFA00E8EB33 /* Preview Content */,
+				5F6268522B2C20D700E8EB33 /* Render.swift */,
+				5F6268542B2C3EC500E8EB33 /* shaders.metal */,
 			);
 			path = MetalLearning;
 			sourceTree = "<group>";
@@ -143,8 +149,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F6268512B2C109D00E8EB33 /* MetalView.swift in Sources */,
+				5F6268552B2C3EC500E8EB33 /* shaders.metal in Sources */,
 				5F6268442B2C0FF900E8EB33 /* ContentView.swift in Sources */,
 				5F6268422B2C0FF900E8EB33 /* MetalLearningApp.swift in Sources */,
+				5F6268532B2C20D700E8EB33 /* Render.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
